@@ -10,7 +10,7 @@ const FLAG_BY_LANGUAGE = {
 
 class LanguageSwitcherDisplay extends React.Component {
 
-    static setOverriddenComponent(languageSwitcherDisplayOverridden) {
+    static onOverride(languageSwitcherDisplayOverridden) {
         LanguageSwitcherDisplayOverridden = languageSwitcherDisplayOverridden;
     }
 
